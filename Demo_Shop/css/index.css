@@ -1,0 +1,76 @@
+      body{
+          margin: 0px;
+      }
+
+.home:hover {
+    transform: scale(1.0);
+    transition: .5s;
+
+
+}
+
+.homee {
+    font-family: Righteous;
+    margin-top: -20px;
+    background-color: #D6430D;
+    color: white;
+    "
+
+}
+
+.cont {
+    margin-left: 20%;
+}
+
+
+
+    h1{
+        background-color: black;
+        color: white;
+        border-radius: 45px;
+        padding-left: 40px;
+        font-family: cursive;
+        font-size: 40px;
+    }
+      h2{
+          font-family: sans-serif;
+      }
+      h4{
+         color: gray;
+          font-family: cursive;
+          font-size: 15px;
+      }
+      .box{
+          height: 50px;
+          width: 50px;
+          border: 1px solid black;
+          border-radius: 250px; 
+      }
+      a{
+          color: dimgray;
+          text-decoration-line: none;
+      }
+      table {
+  border-collapse: collapse;
+  width: 80%;
+}
+li { }
+      a{
+          text-decoration-line: none;
+      }
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  font-size: 12px;
+  border-bottom: 1px solid #ddd;
+}
+.button{
+    background-color: deepskyblue;
+    font-size: 20px;
+    margin-left: 260px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border: 0.1px solid deepskyblue;
+    border-radius: 5px"
+}

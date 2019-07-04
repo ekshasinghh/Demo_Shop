@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Payment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+ 
+</head>
+<body>
+<div class="container"> <br>
+   <div style="color: black">
+          <p>
+              <a href="cart.php"><p><span class="glyphicon glyphicon-circle-arrow-left"></span> Back to Cart</p></a>
+           </p>
+       </div>
+    <h1>Payment</h1> <br>
+    <div class="row" style="font-size: 12px; line-height: 15px;">
+       <div class="col-md-3"><h5>Credit/Debit Card >></h5></div> 
+        <div class="col-md-7" style="font-size: 12px; border: 1px solid gainsboro">
+        <form>
+        <div class="form-group">
+        <label for="card number">Card number*</label>
+        <input type="card number" class="form-control">
+        </div>
+        <div class="form-group">
+        <label for="name">Name on Card*</label>
+        <input type="name" class="form-control">
+        </div>
+        <div class="row">
+        <div class="col-sm-6">
+        <div class="form-group">
+        <label for="month">Expiry Month*</label>
+        <input type="text" class="form-control">
+        </div>
+        </div>
+        <div class="col-sm-6">
+        <div class="form-group">
+        <label for="year">Expiry Year*</label>
+        <input type="text" class="form-control">
+        </div>
+        </div>
+        </div>
+        <div class="form-group">
+        <label for="year">CVV*</label>
+        <input type="text" class="form-control">
+        <span style="font-size: 10px; color: dimgrey">Last 3 digits printed on the back of the card</span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="background-color: firebrick; border-color: firebrick">Pay Now</button>
+        </form> <br>
+        </div>
+    </div> <br>
+    <br>
+    <div class="row" style="font-size: 12px">
+       <div class="col-md-3"><h5>Net Banking >></h5></div>
+       <div class="col-md-7" style="font-size: 12px; border: 1px solid gainsboro">
+       <div class="row">
+           <div class="col-md-3">
+               <img src="images/axis.png" style="height: 55px; width: 65px"><br><h9>Axis Bank</h9>
+           </div>
+           <div class="col-md-3">
+               <img src="images/hdfc.png" style="height: 55px; width: 65px"><br><h9>HDFC Bank</h9>
+           </div>
+           <div class="col-md-3">
+               <img src="images/citi.png" style="height: 55px; width: 55px"><br><h9>CitiBank</h9>
+           </div>
+           <div class="col-md-3">
+               <img src="images/icici.jpg" style="height: 55px; width: 65px"><br><h9>ICICI Bank</h9>
+           </div>
+       </div>
+       <br>
+       <button type="submit" class="btn btn-primary" style="background-color: firebrick; border-color: firebrick">Pay Now</button>
+       <br> <br>
+       </div>
+    </div>
+    </div> <br> <br>
+    </body>
+</html>
